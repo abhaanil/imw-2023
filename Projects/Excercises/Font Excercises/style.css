@@ -1,0 +1,41 @@
+
+/*Metaflop*/
+@font-face {
+    font-family: 'Bespoke-GriZsoxOKb';
+    src: url('fonts/Bespoke-GriZsoxOKb.eot');
+    src: url('fonts/Bespoke-GriZsoxOKb.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Bespoke-GriZsoxOKb.woff') format('woff'),
+       url('fonts/Bespoke-GriZsoxOKb.ttf') format('truetype'),
+       url('fonts/Bespoke-GriZsoxOKb.svg#Bespoke-GriZsoxOKb') format('svg');
+  }
+
+  .text-1 {
+    font-size: 48px;
+    color: white;
+    font-family:'Bespoke-GriZsoxOKb' ;
+    text-align: left;
+
+  }
+
+
+  .text-2 {
+    font-size: 35px;
+    color: white;
+    font-family: 'EB Garamond', serif;
+font-family: 'Inconsolata', monospace;
+text-align: center;
+}
+
+  
+  /*Adobe fonts*/
+.text-3 {
+    font-size: 72px;
+    color: white;
+    font-family: "learning-curve-dashed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+
+}
+
+

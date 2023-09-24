@@ -1,0 +1,29 @@
+.text-1 {
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    transform: translateY(3200%);
+    font-family: "adobe-garamond-pro", serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.text-2 {
+    font-size: 13px;
+    color: white;
+    font-family: "futura-pt", sans-serif;
+font-weight: 300;
+font-style: normal;
+text-align: center;
+}
+
+.text-3 {
+    font-size: 17px;
+    color: white;
+    font-family: "futura-pt", sans-serif;
+font-weight: 300;
+font-style: normal;
+text-align: center;
+
+}
+
