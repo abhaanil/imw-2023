@@ -38,6 +38,7 @@
 font-family: 'Inconsolata', monospace;
 text-align: center;
 transition: transform 250ms;
+
 }
 
 .text-2:hover {
