@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .smiley {
+    width: 600px;
+    height: 600px;
+    box-sizing: border-box;
+
+  }
+  
+  .head {
+    width: 600px;
+    height: 600px;
+    background-color: #FA360A;
+    stroke-width: 20px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: inline-block;  
+  }
+
+  .blush-right {
+    width: 100px;
+    height: 100px;
+    background-color: #B70404;
+    stroke-width: 20px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    top: 37%;
+    right:43%;
+    
+    
+  }
+
+  .blush-left {
+    width: 100px;
+    height: 100px;
+    background-color: #B70404;
+    stroke-width: 20px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    top: 37%;
+    right:59.7%;
+    clip-path: url(.head);
+    
+  }
+
+  .right-eye {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    stroke-width: 40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    top: 38%;
+    right:53%;
+  }
+
+  .left-eye {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    stroke-width: 40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    top: 38%;
+    right: 57%;
+  }
+
+
+  .lefteyeball{
+    width: 20px;
+    height:20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    
+
+  }
+
+  .righteyeball{
+    width: 20px;
+    height:20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    
+
+  }
+
+
+
+
+.smile{
+  width: 300px;
+  height: 150px;
+  border-top-left-radius: 150px;  
+  border-top-right-radius: 150px; 
+  border: 18px solid black;
+  border-bottom: 0;
+  position: absolute;
+  bottom: 42%;
+  left: 37%;
+  transform: rotate(180deg);
+}
+
+.leg-right {
+width: 40px;
+height: 50px;
+border: 18px solid black;
+border-top: 0;
+border-right: 0;
+position: absolute;
+top: 78%;
+right:46%
+}
+
+.leg-left {
+    width: 40px;
+    height: 50px;
+    border: 18px solid black;
+    border-top: 0;
+    border-left: 0;
+    position: absolute;
+    top: 78%;
+    right:50%;
+    }
+
+.hand {
+    width: 130px;
+    height: 50px;
+    border-top-right-radius: 50px;
+    border: 18px solid black;
+    border-bottom: 0;
+    border-left: 0;
+    position: absolute;
+    top: 60%;
+    right:35%;
+
+}
