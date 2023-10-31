@@ -1,0 +1,43 @@
+body {
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+}
+
+h1{
+    font-size: clamp(32px, 10vw, 100px);
+
+}
+
+img {
+    display: none;
+}
+
+@media (max-width:700px) {
+    body{
+        background: black;
+    }
+
+    h1 {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        color: white;
+    }
+    
+}
+
+@media (max-width:650px) {
+    body{
+        background: red;
+    }
+
+    h1 {
+        color: yellowgreen;
+    }
+
+    img {
+        display: block;
+    }
+}
