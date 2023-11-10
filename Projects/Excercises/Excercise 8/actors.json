@@ -1,0 +1,22 @@
+{
+
+    "actors" : [
+        {
+        "decription":"A very famous Bollywood actor",
+        "photo": "amitabh.jpg",
+        "name": "Amitabh Bachhan"
+    }
+    
+        {
+        "decription":"A not so famous but a good-looking Bollywood actor",
+        "photo": "john.jpg",
+        "name": "John Abraham"
+    }
+    
+    {
+        "decription":"A Bollywood actor that could actually act",
+        "photo": "irfan.jpg",
+        "name": "Irfan Khan"
+    }
+    ]
+    };
