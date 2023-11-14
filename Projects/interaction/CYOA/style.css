@@ -180,9 +180,9 @@ cursor: pointer;
 }
 
 
-/* .hidden {
+.hidden {
         display: none;
-} */
+}
 
 .container-one {
     position: absolute;
