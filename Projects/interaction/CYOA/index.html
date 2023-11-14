@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/cbg2bje.css">
+    <title>Daryl needs your kidney</title>
+</head>
+<body>
+    <div id="logo" onclick="refreshPage()">
+        <img src="pentagram.png" alt="Logo" width="50" height="50">
+    </div>
+
+    <p class="reference">Story credits: donotdisturbpls. "CYOA- Daryl Needs a Kidney". Reddit, 2019, <a href="https://www.reddit.com/r/shortscarystories/comments/hgx1ko/cyoa_daryl_needs_a_kidney/" target="_blank"> Link</a></p>
+
+
+    <div class="container-one">
+        <p class="story">Your little brother Daryl needs a kidney. Do you:</p>
+    
+
+        <div class="decision">
+        <p class="option-one" onclick="showContainer('container-three')">Give him one of yours. </p>
+        <br>
+        <p class="option-two" onclick="showContainer('container-two')">Refuse, you are afraid of operations. </p>  
+        </div>  
+    </div>
+
+    <div class="container-two hidden">
+        <p class="story">Your parents are furious, saying you’re selfish. But by evening they apologise and make your favourite dinner. You know they’re trying to persuade you. Do you:</p>
+    
+
+        <div class="decision">
+        <p class="option-three" onclick="showContainer('container-six')">Eat it.</p>
+        <br>
+        <p class="option-four" onclick="showContainer('container-five')">Refuse.</p>  
+        </div>  
+    </div>
+
+    <div class="container-three hidden">
+        <p class="story">You tell your parents you’ll do it, they’re thrilled! The night before the operation you start feeling jitters. Do you:</p>
+    
+
+        <div class="decision">
+        <p class="option-five" onclick="showContainer('container-seven')">Go for a walk to calm down.</p>
+        <br>
+        <p class="option-six" onclick="showContainer('container-eight')">Go talk to Daryl. </p>  
+        </div>  
+    </div>
+
+    <div class="container-four hidden ">
+        <p class="story">By the time your parents are awake, you’re ready. The operation goes well, and the kidney is given to your brother. He looks at you, shame in his eyes, as he eats it. Blood runs down his chin. It’s hard having a cannibal as a brother.</p> 
+        <img class="four" src="four.jpeg" alt="Dripping blood" width="515px" height="620px"> 
+    </div>
+
+    <div class="container-five hidden ">
+        <p class="story">Your parents get angry, and Dad swings at you. You’re knocked unconscious. You wake up strapped to an operating bed. Looks like your brother comes first, as always. After all, you were only conceived to give him body parts.</p> 
+        <img class="five" src="five.jpeg" alt="blood drops" width="227px" height="152px"> 
+    </div>
+
+    <div class="container-six hidden ">
+        <p class="story">You eat the dinner, but begin to feel woozy before you’ve even finished. You wake up in an ice bath, with a fresh wound.</p>
+        <img class="six" src="six.jpeg" alt="splattered blood" width="306px" height="204px">   
+    </div>
+
+    <div class="container-seven hidden">
+        <p class="story">You’re out walking when you see a tramp. An idea forms. You’re not the only one with a kidney. Do you:</p>
+    
+
+        <div class="decision">
+        <p class="option-seven" onclick="showContainer('container-ten')">Convince him to come home with you.</p>
+        <br>
+        <p class="option-eight" onclick="showContainer('container-eight')"> Go home to talk to Daryl </p>  
+        </div>  
+    </div>
+
+    <div class="container-eight hidden">
+        <p class="story">Daryl apologises, saying he can’t help it but wishes you weren’t in this position. Do you:</p>
+    
+
+        <div class="decision-column">
+        <p class="option-nine" onclick="showContainer('container-four')">Resign yourself, and create an ice bath</p>
+        <br>
+        <p class="option-ten" onclick="showContainer('container-two')"> Tell your parents you’re too scared after all</p> 
+        <br>
+        <p class="option-eleven" onclick="showContainer('container-twelve')"> Decide to kill Daryl instead. These demands never stop.</p>  
+        </div>  
+    </div>
+
+    <div class="container-nine hidden">
+        <p class="story">You swiftly draw the knife across his throat, and then head to bed. You wake in the morning to your parents screaming. Do you:</p>
+
+        <div class="decision">
+        <p class="option-twelve" onclick="showContainer('container-thirteen')">Admit it was you.</p>
+        <br>
+        <p class="option-thirteen" onclick="showContainer('container-fourteen')">Pretend someone broke in. </p>  
+        </div>
+    </div>
+
+    <div class="container-ten hidden ">
+        <p class="story">The tramp comes home with you. Your parents are dubious at first, then thrilled as they come round to the idea. Daryl can feast for months with all these organs!  </p> 
+        <img class="ten" src="ten.jpeg" alt="bloody hand print" width="266px" height="330px"> 
+
+    </div>
+
+    <div class="container-eleven hidden">
+        <p class="story">You sneak in and cut your parents throats while they sleep. There are plenty of kidney’s to go around now! You never understood why your brother needed human organs to survive, but hey, you may as well join him! You begin to tuck in and call Daryl in. He stops dead in the doorway. “Dude...in this one I actually needed as a transplant”.  </p>  
+        <img class="eleven" src="six.jpeg" alt="splattered blood" width="582px" height="388px">  
+    </div>
+
+    <div class="container-twelve hidden">
+        <p class="story">Daryl looks at you in fear. You begin to feel qualms. Do you:</p>
+
+        <div class="decision">
+        <p class="option-fourteen" onclick="showContainer('container-nine')">Go through with it and kill him.</p>
+        <br>
+        <p class="option-fifteen" onclick="showContainer('container-eleven')">Decide to kill your parents instead. </p>  
+        </div>
+    </div>
+
+    <div class="container-thirteen hidden ">
+        <p class="story">After the initial shock, your parents look almost relieved. You call the police and sob down the phone. Time to live a peaceful life, no more operations! </p>  
+        <img class="thirteen" src="thirteen.jpeg" alt="blood stains" width="245px" height="166px"> 
+    </div>
+
+    <div class="container-fourteen hidden ">
+        <p class="story">You can tell your parents don’t believe you, but they look almost relieved. Daryl isn’t the only one who likes fresh meat... it’s time for a family feast! </p>  
+        <img class="fourteen" src="fourteen.jpeg" alt="blood stains" width="329px" height="223px"> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,345 @@
+body {
+
+    margin: 10px;
+    background-image: url('White\ background.jpg');
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.reference {
+    position: absolute;
+    top:880px;
+    left:1350px;
+}
+
+
+
+.decision {
+    display: flex;
+    flex-direction: row;
+    margin-top: -8px;
+}
+
+.decision-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.story {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
+    font-size: 22px;
+    box-sizing: border-box;
+    margin-bottom: -8px;
+
+}
+
+
+.option-one {
+font-family: "adobe-garamond-pro", serif;
+font-weight: 400;
+font-size: 19px;
+font-style: italic;
+cursor: pointer;
+}
+
+.option-two {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+    margin-left: 17px;
+    cursor: pointer;
+    
+}
+
+.option-three {
+font-family: "adobe-garamond-pro", serif;
+font-weight: 400;
+font-size: 19px;
+font-style: italic;
+cursor: pointer;
+}
+
+.option-four {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+    margin-left: 22px;
+    cursor: pointer;
+    }
+
+.option-five {
+font-family: "adobe-garamond-pro", serif;
+font-weight: 400;
+font-size: 19px;
+font-style: italic;
+cursor: pointer;
+}
+
+.option-six {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+.option-seven {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.option-eight {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+    margin-left: 26px;
+    cursor: pointer;
+}
+
+.option-nine {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+    cursor: pointer;
+
+}
+
+.option-ten {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+    margin-top: -40px;
+    cursor: pointer;
+}
+
+.option-eleven {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+    margin-top: -40px;
+    cursor: pointer;
+}
+
+.option-twelve {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+    cursor: pointer;
+
+}
+
+.option-thirteen {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+
+.option-fourteen {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.option-fifteen {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+
+.hidden {
+        display: none;
+}
+
+.container-one {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    width: 500px;
+}
+
+.container-two {
+    position: absolute;
+    top: 140px;
+    left: 200px;
+    width: 600px;
+
+}
+
+
+.container-three {
+    position: absolute;
+    top: 280px;
+    left: 30px;
+    width: 400px;
+ 
+}
+
+.container-four {
+    position: absolute;
+    top: 240px;
+    left: 500px;
+    width: 550px;
+ 
+}
+
+
+.four {
+        position: absolute;
+        top: -70px; 
+        left: 140px; 
+        mix-blend-mode: multiply;
+    }
+
+.container-five {
+    position: absolute;
+    top: 380px;
+    left: 500px;
+    width: 550px;
+ 
+}
+
+.five {
+    position: absolute;
+    top: 30px; 
+    left: -60px; 
+    mix-blend-mode: multiply;
+}
+
+.container-six {
+    position: absolute;
+    top: 540px;
+    left: 220px;
+    width: 700px;
+ 
+}
+
+.six {
+    position: absolute;
+    top: -40px; 
+    left: -120px; 
+    mix-blend-mode: multiply;
+}
+
+.container-seven {
+    position: absolute;
+    top: 630px;
+    left: 30px;
+    width: 500px;
+ 
+}
+
+.container-eight {
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    width: 500px;
+ 
+}
+
+.container-nine {
+    position: absolute;
+    top: 770px;
+    left: 30px;
+    width: 570px;
+ 
+}
+
+.container-ten {
+    position: absolute;
+    top: 770px;
+    left: 620px;
+    width: 520px;
+ 
+}
+
+.ten {
+    position: absolute;
+    top: -180px; 
+    left: -120px; 
+    mix-blend-mode: multiply;
+}
+
+.container-eleven {
+    position: absolute;
+    top: 670px;
+    left: 1150px;
+    width: 750px;
+ 
+}
+
+.eleven {
+    position: absolute;
+    top: -150px; 
+    left: -120px; 
+    mix-blend-mode: multiply;
+}
+
+.container-twelve {
+    position: absolute;
+    top: 800px;
+    left: 1150px;
+    width: 750px;
+ 
+}
+
+.container-thirteen {
+    position: absolute;
+    top: 430px;
+    left: 30px;
+    width: 470px;
+ 
+}
+
+.thirteen {
+    position: absolute;
+    top: 30px; 
+    left: -60px; 
+    mix-blend-mode: multiply;
+}
+
+.container-fourteen {
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    width: 470px;
+ 
+}
+
+.fourteen {
+    position: absolute;
+    top: 0px; 
+    left: 210px; 
+    mix-blend-mode: multiply;
+}
