@@ -14,12 +14,14 @@ body {
 a {
     text-decoration: none;
     color: black;
+    
 }
 
 .reference {
     position: absolute;
     top:880px;
     left:1350px;
+    opacity:50%;
 }
 
 
