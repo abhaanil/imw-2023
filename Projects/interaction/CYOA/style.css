@@ -180,9 +180,9 @@ cursor: pointer;
 }
 
 
-.hidden {
+/* .hidden {
         display: none;
-}
+} */
 
 .container-one {
     position: absolute;
@@ -326,7 +326,7 @@ cursor: pointer;
 
 .thirteen {
     position: absolute;
-    top: 30px; 
+    top: 50px; 
     left: -60px; 
     mix-blend-mode: multiply;
 }
