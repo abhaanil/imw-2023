@@ -1,23 +1,18 @@
-const backgroundVideo = document.getElementById('backgroundVideo');
-let prevX = 0;
-let prevTimestamp = performance.now();
 
-document.addEventListener("mousemove", function(event) {
-  const mouseX = event.clientX;
+//BACKGROUND ANIMATION
+// Get all section elements
+const sections = document.querySelectorAll('.section');
 
-  const currTimestamp = performance.now();
-  const timeDiff = currTimestamp - prevTimestamp;
-  const speed = Math.abs(mouseX - prevX) / timeDiff;
+// Add event listeners to change background image on section hover
+sections.forEach((section, index) => {
+    section.addEventListener('mouseenter', () => {
+        document.body.style.backgroundImage = `url('image${index + 1}.jpg')`; // Change background image
+    });
+});
 
-  // Map speed to playback rate
-  const minSpeed = 0.5; // Minimum speed
-  const maxSpeed = 5.0; // Maximum speed
-  const playbackRate = Math.min(Math.max(speed, minSpeed), maxSpeed);
+//REFRESH PAGE
 
-  // Set the playback rate of the video
-  backgroundVideo.playbackRate = playbackRate;
-
-  prevX = mouseX;
-  prevTimestamp = currTimestamp;
+document.getElementById('logo').addEventListener('click', function() {
+    location.reload(); // Reloads the page on logo click
 });
 
