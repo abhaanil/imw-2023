@@ -2,26 +2,114 @@
 
 body {
   margin: 0;
+  margin-top: 30px;
   padding: 0;
   height: 100%;
-  background-size: 480px 480px;
+  background-size: 1538px 865px;
   background-position: center;
   background-repeat: no-repeat; /* Prevent background image from tiling */
   background-color: #eeebdc;
+
 }
 
-.logo {
-  position: absolute;
+.logoo {
+  position: fixed;
   top: 60px;
   left: 60px;
   z-index: 999; 
+  width: 420px;
+  height: 420px;
+  background-image: url("logo.PNG");
+  background-size: contain;
+  cursor: pointer;
+  
 }
 
-.logo:hover {
-  cursor: pointer;
-  opacity: 0;
-  transition: 0.1s ease-in;
+.logoo:hover {
+  background-image: url("logohover.PNG");
+  transition: opacity 0.3s ease-in-out;
+  
 }
+
+.contact-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 60px;
+  cursor: pointer;
+  z-index: 998; 
+  width: 400px;
+  height: 400px;
+  background-image: url("contactme.PNG");
+  background-size: contain;
+  transition: 0.1ms ease-in;
+}
+
+.contact-icon:hover {
+  background-image: url("contactmehover.PNG");
+  
+}
+
+
+.contact-form {
+  display: none;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 4px solid #007bff;
+  border-radius: 30px;
+  position: absolute;
+  top: 74%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  color: #0073da;
+  font-family: "urbane-rounded", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+font-size: 15px; 
+  
+}
+
+/* Styles for form elements */
+.contact-form form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form textarea {
+  width: calc(100% - 12px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.contact-form form textarea {
+  resize: vertical;
+}
+
+.contact-form form input[type="submit"] {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-family: "urbane-rounded", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.contact-form form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+
 
 .navigation {
   position: fixed;
@@ -59,14 +147,3 @@ font-size: 28px;
   flex: 1; /* Each section occupies equal space */
 }
 
-.contact-icon {
-  position: fixed;
-  bottom: 20px;
-  right: 60px;
-  cursor: pointer;
-}
-
-.contact-icon:hover {
-  opacity: 0;
-  transition: 0.1s ease-in;
-}
