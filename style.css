@@ -13,6 +13,10 @@ body {
 
 }
 
+.cursor {
+  mix-blend-mode: multiply;
+}
+
 
 
 .logoo {
@@ -150,7 +154,48 @@ cursor: url('cursor2.png'), pointer;
   height: 100vh; /* Full viewport height */
 }
 
-.section {
-  flex: 1; /* Each section occupies equal space */
+
+
+/* .section {
+  border: black solid 1px;
+} */
+
+#section1 {
+  flex: 3; /* Occupies 3 part of available space */
 }
 
+#section2 {
+  flex: 1; 
+}
+
+#section3 {
+  flex: 1; 
+}
+
+#section4 {
+  flex: 1; 
+}
+
+#section5 {
+  flex: 1; 
+}
+
+#section6 {
+  flex: 1; 
+}
+
+#section7 {
+  flex: 1; 
+}
+
+#section8 {
+  flex: 1; 
+}
+
+#section9 {
+  flex: 1; 
+}
+
+#section10 {
+  flex: 3; /* Occupies 3 part of available space */
+}
