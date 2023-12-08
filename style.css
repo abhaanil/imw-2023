@@ -112,7 +112,9 @@ font-size: 15px;
   background-color: #0056b3;
 }
 
-
+.navigation ul li a:hover {
+  color: #e974dc;
+}
 
 
 .navigation {

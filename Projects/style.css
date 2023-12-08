@@ -112,7 +112,9 @@ font-size: 15px;
   background-color: #0056b3;
 }
 
-
+.navigation ul li a:hover {
+  color: #e974dc;
+}
 
 .navigation {
   position: fixed;
@@ -144,10 +146,8 @@ font-size: 28px;
 cursor: url('cursor2.png'), pointer;
 }
 
-/*FIX THIS ISSUE*/
 
-
-.navigation ul li.pink a {
+.navigation ul li.project a {
   color: #e974dc; /* Change the color to pink */
 }
 
