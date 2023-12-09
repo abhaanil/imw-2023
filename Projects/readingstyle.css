@@ -1,0 +1,129 @@
+
+
+body {
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    padding: 0;
+    height: 100%;
+    background-size: 1538px 865px;
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent background image from tiling */
+    background-color: #edeadb;
+    cursor: url('cursor1.png'), auto;
+  
+  }
+  
+  
+  
+  
+  .logoo {
+    position: fixed;
+    top: 60px;
+    left: 60px;
+    z-index: 999; 
+    width: 420px;
+    height: 420px;
+    background-image: url("logo.PNG");
+    background-size: contain;
+    cursor: url('cursor2.png'), pointer;
+    
+  }
+  
+  .logoo:hover {
+    background-image: url("logohover.PNG");
+    transition: opacity 0.3s ease-in-out;
+    
+  }
+  
+  
+  .contact-form form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .navigation ul li a:hover {
+    color: #e974dc;
+  }
+  
+  
+  .navigation {
+    position: absolute;
+    top: 100px;
+    right: 60px;
+    cursor: url('cursor2.png'), pointer;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    cursor: url('cursor2.png'), pointer;
+  }
+  
+  .navigation ul li {
+    display: inline-block;
+    margin-right: 15px;
+    cursor: url('cursor2.png'), pointer;
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    color: #0073da;
+    font-family: "urbane-rounded", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  font-size: 28px;
+  cursor: url('cursor2.png'), pointer;
+  }
+
+  .navigation ul li.pink a {
+    color: #e974dc; /* Change the color to pink */
+  }
+
+
+  .container {
+    width: 900px;
+    margin-top: 200px;
+    margin-left: 600px;
+  
+  }
+
+  h1 {
+    color: #e974dc;
+    font-family: "urbane-rounded", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  font-size: 34px;
+
+  }
+
+  h2 {
+    color: #0073da;
+    font-family: "urbane-rounded", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  font-size: 24px;
+
+  }
+
+  p{
+    color: #0073da;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+
+  }
+
+  a{
+    color: #0073da;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+
+  }
+  
+
+  
+  
+  
+  
